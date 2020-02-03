@@ -15,4 +15,4 @@ def pcap_to_df(pcap_location: str) -> pd.DataFrame:
 
 
 if __name__ == "__main__":
-    p = pkts_to_df(sys.argv[1])
+    p = pcap_to_df(sys.argv[1])
